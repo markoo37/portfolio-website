@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from "lucide-react";
+import { Briefcase, Code, Database, User } from "lucide-react";
 
 export const AboutSection = () => {
   return (
@@ -6,7 +6,7 @@ export const AboutSection = () => {
       {" "}
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          Rólam
+          Rólam<span className="text-primary">.</span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -41,9 +41,9 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Webalkalmazás-fejlesztés</h4>
+                  <h4 className="font-semibold text-lg">Webalkalmazás-, mobilapp-, szoftverfejlesztés</h4>
                   <p className="text-muted-foreground">
-                    Modern JavaScript-ökoszisztémával reszponzív, skálázható frontendet építek.
+                    Reszponzív, skálázható applikációkat építek.
                   </p>
                 </div>
               </div>
@@ -51,7 +51,7 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <User className="h-6 w-6 text-primary" />
+                  <Database className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Backend & Adatbázis</h4>
