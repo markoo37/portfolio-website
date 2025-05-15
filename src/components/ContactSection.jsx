@@ -47,8 +47,7 @@ export const ContactSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Have a project in mind or want to collaborate? Feel free to reach out.
-          I'm always open to discussing new opportunities.
+          Kérdésed van? Van egy projektötledet amiben segíthetnék? Fordulj felém bátran!
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -58,13 +57,13 @@ export const ContactSection = () => {
               Elérhetőségek
             </h3>
 
-            <div className="space-y-6 justify-center">
+            <div className="space-y-6 justify-center text-left">
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Mail className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
-                  <h4 className="font-medium"> Email</h4>
+                  <h4 className="font-medium">Email</h4>
                   <a
                     href="mailto:hello@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
