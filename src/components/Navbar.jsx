@@ -8,6 +8,7 @@ const navItems = [
     {name: "Rólam", href: "#about"},
     {name: "Készségek", href: "#skills"},
     {name: "Projektek", href: "#projects"},
+    {name: "Sport és Én", href: "#sports-gallery"},
     {name: "Kapcsolat", href: "#contact"},
 ]
 

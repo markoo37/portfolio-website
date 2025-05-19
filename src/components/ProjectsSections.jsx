@@ -7,7 +7,7 @@ const projects = [
     description: "Egy stabil videómegosztó oldal egyetemi projekt keretében.",
     image: "/projects/php_blipblop.png",
     tags: ["PHP", "Oracle Database", "Javascript"],
-    demoUrl: "#",
+    demoUrl: "https://drive.google.com/file/d/1y03aT2LkchIbu-pPxtZD9gK7qpr2XLvt/view?t=39",
     githubUrl: "https://github.com/markoo37/blipblop",
   },
   {
@@ -17,11 +17,41 @@ const projects = [
       "A videómegosztó oldal modernebb technológiákkal.",
     image: "/projects/ts_blipblop.png",
     tags: ["TypeScript",  "Next.js", "Supabase", "Tailwind CSS"],
-    demoUrl: "#",
+    demoUrl: "https://drive.google.com/file/d/1Q-4KQ1VX34PzIWHQYTlAcvt6qPpas6lG/view",
     githubUrl: "https://github.com/markoo37/blipblop_typeScriptJamstack",
   },
   {
     id: 3,
+    title: "Számkitatlálós játék",
+    description:
+      "A felhasználók virtuális pénnzel fogadhatnak egy számra (1-9).",
+    image: "/projects/luckynumbergame.png",
+    tags: ["WinForm C#",  "Node.js", "Javascript", "MySQL"],
+    demoUrl: "https://drive.google.com/file/d/1Pn3ax78I7-Eavv3NM4Df-u4yp3FgJIrN/view?t=39",
+    githubUrl: "https://github.com/markoo37/luckynumber",
+  },
+  {
+    id: 4,
+    title: "SplashScore",
+    description:
+      "Vízilabda bajnoksághoz információs alkalmazás. Eredmények, cikkek, tabella, top-listák.",
+    image: "/projects/splashscore.png",
+    tags: ["Java",  "Android Studio", "Firebase"],
+    demoUrl: "https://drive.google.com/file/d/168BBzyLIm-MTdEaaiYb_obbtmGMZtu3g/view",
+    githubUrl: "https://github.com/markoo37/SplashScore",
+  },
+  {
+    id: 5,
+    title: "WeatherAPP",
+    description:
+      "Időjárás lekérdező app a világ városaiból API segítségével.",
+    image: "/projects/weatherapp.png",
+    tags: ["C#",  "WPF", "weatherapi.com"],
+    demoUrl: "",
+    githubUrl: "https://github.com/markoo37/WeatherAPP_u4ufuk",
+  },
+  {
+    id: 6,
     title: "Edzői mini CRM ",
     description:
       "Fejlsztés alatt. Edzőknek vagy oktatóknak nyilvántartás, jelenlét, teljesítménykövetés.",
